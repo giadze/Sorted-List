@@ -1,0 +1,28 @@
+Case 1: Start iterator after inserting these 4  numbers and ordering them
+
+Input: 7, 15, 5, 10
+Expected Output: 15, 10, 7, 5
+Actual Output: 15, 10, 7, 5
+
+
+Case 2: With the Removed 10 and print
+
+Input: 7, 15, 5, 10
+Expected Output: 15, 7, 5
+Actual Output: 17, 7, 5
+
+Case 3 handling removals/additions before iteratioin then iterate the entire list
+
+Input: 7, 15, 5, 10, 16 
+Expected Output: removed the middle so 15
+Actual Output: add 16 so 16, 15, 7, 5
+
+Case 4: Empty list after removing
+Input: remove 7
+Exepcted Output: empty 
+Actual Output: empty 
+
+Case 5: 
+Input: "hello"
+Expected output: hello
+Actual Output: hello
